@@ -6,8 +6,10 @@
 }
 
 .logo {
-  width: 100%;
-  height: 500px;  
-  background-image: url('quixotic.works-logo.png');
-  background-size: cover;
+  width: 100%; 
+  height: 300px;  /* Pas de hoogte aan voor je logo */
+  background-image: url('quixotic.works-logo.jpeg');
+  background-size: contain;  /* Zorg ervoor dat het logo niet vervormt */
+  background-repeat: no-repeat;
+  margin: 0 auto 40px;  /* Centreert het logo */
 }
