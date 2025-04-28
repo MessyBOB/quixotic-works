@@ -4,3 +4,8 @@
   background-image: url('afb1.png'); 
   background-size: cover;
 }
+
+.logo {
+  display: block;
+  max-width: 300px;  
+  margin: 0 auto 40px;  
